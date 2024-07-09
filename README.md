@@ -6,7 +6,9 @@ this is the program we relies on to to program, it supports so many programming 
 - We need to install [Xampp](https://www.apachefriends.org/). XAMPP stands for: X (cross-platform), A (Apache HTTP Server), 
 M (MariaDB), P (PHP), and P (Perl). it is a local server environment to test their web applications. It's widely used for developing and testing web pages and websites on a local computer before deploying them to a live server.
 
-- We will need also to use myPHP website to initialize the database that will store all the data that will be send from the localhost website.
+- We will need also to use the web server: phpMyAdmin to initialize the database that will store all the data that will be send from the localhost website.
+> [!NOTE]
+> We can got to it by clicking on Admin inside XAMPP in MySQL. 
 
 # Steps
 ## XAMPP
