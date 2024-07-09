@@ -55,9 +55,7 @@ inside the 'index.htm', copy-paste the following code.
           if (xhr.readyState === 4 && xhr.status === 200) {
             var response = JSON.parse(xhr.responseText);
             if (response.status === "success") {
-              // Update last movement display
-              document.getElementById("last-movement").innerText =
-                "Last Movement: " + direction;
+              // Movement recorded successfully, do nothing
             } else {
               console.error("Error:", response.message);
             }
@@ -90,7 +88,6 @@ inside the 'index.htm', copy-paste the following code.
         Down
       </div>
     </div>
-    <div id="last-movement" class="last-movement">Last Movement: None</div>
   </body>
 </html>
 ```
