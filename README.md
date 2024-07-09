@@ -23,7 +23,7 @@ M (MariaDB), P (PHP), and P (Perl). it is a local server environment to test the
   );
 ```
 > [!NOTE]
-> This what will look like after implementing the previous steps:
+> This what will look like after implementing the previous steps:<br>
 <img src= https://github.com/Layan002/Web-Task1-designing-a-web-saving-it-with-database/assets/107956591/f10ee31c-917b-46bf-b67d-e2b8ad500e95 alt= "image" width= 400>
 
 ## VS code
