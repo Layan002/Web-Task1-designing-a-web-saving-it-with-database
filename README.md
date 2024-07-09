@@ -12,7 +12,11 @@ M (MariaDB), P (PHP), and P (Perl). it is a local server environment to test the
 ## XAMPP
 - Open the xampp after you install it, click on start for both apache and mysql.
 - save a folder that is named "robot-web" in the path of XAMPP, it is usually in C:\xampp\htdocs\
-- From the mysql line click on admin, a website page will open. in the left hand bar klick on new. thin name the database and name the file you want as 'robotmove'. up the page there is a bar called SQL open it and copy-paste the following:
+- From the mysql line click on admin, a website page will open. in the left hand bar klick on new. thin name the database and name the file you want as 'robotmove'.
+
+<img src= https://github.com/Layan002/Web-Task1-designing-a-web-saving-it-with-database/assets/107956591/f10ee31c-917b-46bf-b67d-e2b8ad500e95 alt= "image" width= 400>
+
+-  up the page there is a bar called SQL open it and copy-paste the following:
 ```
   CREATE TABLE movements (
     id INT AUTO_INCREMENT PRIMARY KEY,
