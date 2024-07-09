@@ -17,7 +17,7 @@ M (MariaDB), P (PHP), and P (Perl). it is a local server environment to test the
   CREATE TABLE movements (
     id INT AUTO_INCREMENT PRIMARY KEY,
     direction VARCHAR(50)
-);
+  );
 ```
 
 ## VS code
