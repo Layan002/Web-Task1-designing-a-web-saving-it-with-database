@@ -13,9 +13,6 @@ M (MariaDB), P (PHP), and P (Perl). it is a local server environment to test the
 - Open the xampp after you install it, click on start for both apache and mysql.
 - save a folder that is named "robot-web" in the path of XAMPP, it is usually in C:\xampp\htdocs\
 - From the mysql line click on admin, a website page will open. in the left hand bar klick on new. thin name the database and name the file you want as 'robotmove'.
-
-<img src= https://github.com/Layan002/Web-Task1-designing-a-web-saving-it-with-database/assets/107956591/f10ee31c-917b-46bf-b67d-e2b8ad500e95 alt= "image" width= 400>
-
 -  up the page there is a bar called SQL open it and copy-paste the following:
 ```
   CREATE TABLE movements (
@@ -23,6 +20,9 @@ M (MariaDB), P (PHP), and P (Perl). it is a local server environment to test the
     direction VARCHAR(50)
   );
 ```
+> [!NOTE]
+> This what will look like after implementing the previous steps:
+<img src= https://github.com/Layan002/Web-Task1-designing-a-web-saving-it-with-database/assets/107956591/f10ee31c-917b-46bf-b67d-e2b8ad500e95 alt= "image" width= 400>
 
 ## VS code
 - open VS code in the top tap open select file --> open folder --> robot-web
@@ -215,7 +215,22 @@ $conn->close();
 ?>
 ```
 > [!NOTE]
-> Make the required changes as follows: $username = "root" and $password = "". name the dbname as what you named in the database. $dbname = "robotmove". 
+> Make the required changes as follows: $username = "root" and $password = "". name the dbname as what you named in the database. $dbname = "robotmove".
+
+# Final results
+## The Local website
+<img src= https://github.com/Layan002/Web-Task1-designing-a-web-saving-it-with-database/assets/107956591/0fcbbea6-e815-49c4-ad57-5ee71f838c80 alt= "image" width= 700>
+
+> [!IMPORTANT]
+> Do NOT forget to open XAMPP and start Apache and MySQL.
+
+## Video Test
+
+https://github.com/Layan002/Web-Task1-designing-a-web-saving-it-with-database/assets/107956591/8d392414-abb0-44bf-8c88-1758d10e58d2
+
+
+
+
 
 
 
