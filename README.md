@@ -218,10 +218,12 @@ $conn->close();
 
 # Final results
 ## The Local website
+'http://localhost/robot-web/index.html' This path is to navigate to the local web page. 
 <img src= https://github.com/Layan002/Web-Task1-designing-a-web-saving-it-with-database/assets/107956591/0fcbbea6-e815-49c4-ad57-5ee71f838c80 alt= "image" width= 700>
 
 > [!IMPORTANT]
 > Do NOT forget to open XAMPP and start Apache and MySQL.
+> To navigate to any web page you've created follow this path always: 'http://localhost/Your_folder_name_inside_XAMPP/HTML_file_name.html'
 
 ## Video Test
 
